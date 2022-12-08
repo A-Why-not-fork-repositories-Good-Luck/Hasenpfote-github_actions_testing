@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.7", "3.8"]
+        python-version: ["3.6", "3.7", "3.8"]
 
     steps:
     - uses: actions/checkout@v3
@@ -38,4 +38,5 @@ jobs:
       continue-on-error: true
     - name: Test with pytest
       run: |
-        poetry run tox -e py
+        #poetry run tox -e py
+        poetry run python -m pyenv_poetry_tox_pytest_example/utils
