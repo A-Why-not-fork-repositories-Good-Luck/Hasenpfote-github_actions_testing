@@ -8,7 +8,9 @@ packages = [{include = "pyenv_poetry_tox_pytest_example"}]
 
 [tool.poetry.dependencies]
 python = "^3.6"
-tox = "*"
+
+[tool.poetry.dev-dependencies]
+tox = "^3.20.1"
 
 [build-system]
 requires = ["poetry-core"]
