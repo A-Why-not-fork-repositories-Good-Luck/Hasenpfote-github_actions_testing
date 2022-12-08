@@ -39,4 +39,4 @@ jobs:
     - name: Test with pytest
       run: |
         # poetry run tox -e py
-        poetry run python -m pyenv_poetry_tox_pytest_example/utils
+        poetry run python pyenv_poetry_tox_pytest_example/utils.py
