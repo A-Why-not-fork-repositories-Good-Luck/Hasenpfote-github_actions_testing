@@ -16,8 +16,8 @@ def print_greet():
 
 
 def print_python_version():
-    #print(f"{sys.version=}") # Syntax for Python 3.8 or higher.
-    #print(f"sys.version={sys.version}")
+    # print(f"{sys.version=}") # Syntax for Python 3.8 or higher.
+    # print(f"sys.version={sys.version}")
     print(sys.version)
 
 
